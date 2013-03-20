@@ -6,4 +6,4 @@ REM For any concern, please contact Fanyi via dmfynyu@gmail.com
 
 cd C:\\oovoo project\\ffmpeg\\bin
 del test.avi
-ffmpeg.exe -t 3000 -f dshow -i video="UScreenCapture" -vcodec rawvideo -pix_fmt yuva420p test.avi
+ffmpeg.exe -t 2400 -f dshow -i video="UScreenCapture" -r 25 -vcodec libx264 -tune zerolatency -b 4000k -pix_fmt yuv420p -rtbufsize 200MB captured.mp4
