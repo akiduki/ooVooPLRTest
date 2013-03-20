@@ -1,0 +1,8 @@
+This repo contains the necessary scripts for running packet loss tests on various network conditions.
+Written by Yuanyi Xue and Duanmu Fanyi
+
+The scripts should be running under the Windows environment
+The required tools are:
+Network Emulator for Windows Tool Kits (64-bit)
+UScreenCapture DirectShow Filter
+FFMPEG or AVCONV
