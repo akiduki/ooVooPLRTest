@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Emulation xmlns="http://research.microsoft.com/asia"><VirtualChannel name="VirtualChannel 22" DispatchType="packet"><FilterList><Filter name="FILTER_22" not="0"/></FilterList><VirtualLink name="LINK_22" instances="1"><LinkRule dir="upstream"/><LinkRule dir="downstream"><Bandwidth><Speed unit="kbps">1500</Speed><QueueManagement><NormalQueue><Size>100</Size><QueueMode>packet</QueueMode><DropType>DropTail</DropType></NormalQueue></QueueManagement></Bandwidth></LinkRule></VirtualLink></VirtualChannel></Emulation>
